@@ -11,173 +11,120 @@ img {
     vertical-align: middle;
 }
 .big{
-    border: 4px solid red;
-    
-}
-.box{
-    display: flex;
-    justify-content: baseline;
-    flex-wrap: wrap;
-    column-gap: 15px;
-    margin-top:10px ;
-    position: fixed;
-    right: 10px;
-    top: 10px;
-
-}
-.btn{
-    background-color: rgb(54, 69, 201);
-    color: white;
-    font-size: 15px;
-    padding:7px 9px ;
-    border: none;
-}
-.rasm1{
-    width: 70%;
-
-}
-.rasm2{
-    width: 40%;
-    display: none;
-    
-}
-.new{
-    display: block;
-}
-.boxs{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:baseline;
-    margin-top: 100px;
-    
-}
-.box1{
-    width: 50%;
-    text-align: center;
-    margin-top: 200px;
-}
-.box2{
-    width: 50%;
-}
-.text{
-    margin-top: 60px;
-    font-size: 23px;
-    color: rgb(80, 77, 77);
-    margin-bottom: 30px;
-}
-.txt{
-    background: linear-gradient(rgba(44, 112, 238, 0.7), rgba(229, 49, 253, 0.7)), url();
-    width: 50%;
-    height: 40px;
-    margin-bottom: 40px;
-    margin-left: 100px;
-    font-size: 35px;
-    text-align: start;
-}
-.txt1{
-    font-size: 26px;
-    text-align: start;
-    margin-left:100px ;
-    margin-bottom: 20px;
-} 
-.txt2{
-    font-size: 20px;
-    text-align: start;
-    margin-left:100px ;
-}
-.btn2{
-    background-color: rgb(54, 69, 201);
-    color: white;
-    font-size: 20px;
-    padding:10px 15px ;
-    border:none;
-    margin-top: 90px; 
-    border-radius: 20px;
-    margin-left: -250px;
-}
-.form{
-    border: 15px solid blue;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: baseline;
-    background-color: rgb(248, 241, 233);
-    position: fixed;
-    top: 20px;
-    right: 80px;
-    display: none;
-    width: 70%;
-}
-.hide{
-    display: block;
-}
-.rasm{
-    width: 15%;
-    margin-left: 79px;
-}
-.h1{
-    margin-left: 79px;
-}
-.bb{
-    margin-left: 79px;
-}
-.ac{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: baseline;
-}
-.one{
-    width: 45%;
-    margin-bottom: 100px;
-    margin-top: 100px;
-}
-.two{
-    width: 43%;
-    position: fixed;
-    top: 30px;
-    right: 60px;
-}
-.input{
-    margin: 40px;
-    border: 2px solid blue;
-    height: 40px;
-}
-.forgot{
-   text-decoration: none; 
-   font-size: 18px;
-   color:blue;
-}
-.link{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: baseline;
-    margin-top: 40px;
-   
-}
-.add{
-    font-size: 22px;
-}
-.matn{
-    font-size: 20px;
-}
-.ass{
-    border: none;
-    border-radius: 10px;
-    padding: 7px 10px ;
-    font-size: 17px;
     background-color: blue;
     color: white;
-    margin-left: 60px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 150px;
 }
-@media(max-width:600px){
-    .box1{
-        width: 100%;
-        text-align: center;
-        background-color: rgb(181, 231, 130);
-        color: rgb(15, 15, 15);
-    }
-    .box2{
-        width: 100%;
-        margin-top: 50px;
-    }
+.buton{
+    margin: 30px;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    padding: 30px;
+    text-transform:uppercase ;
+    transition: 0.2s all linear;
+    position: relative;
+    z-index: 1;
+}
+.buton:hover{
+    color: black;
+    background-color: white;
+}
+.aa{
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    height: 0;
+    background-color: white;
+    transition: 0.2s all linear;
+    top: 0;
+    left: 0;
+}
+.aa1{
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    height: 0;
+    background-color: rgb(76, 233, 61);
+    transition: 0.2s all linear;
+    bottom: 0;
+    right: 0;
+}
+.aaa{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background-color: rgb(76, 233, 61);
+    transition: 0.2s all linear;
+    top: 0;
+    left: 0;
+}
+.aab{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background-color: rgb(194, 240, 68);
+    transition: 0.2s all linear;
+    bottom: 0;
+    right: 0;
+}
+.aac{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background-color: rgb(223, 50, 179);
+    transition: 0.2s all linear;
+    right: 0;
+    top: 0;
+}
+.aad{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background-color: rgb(119, 21, 175);
+    transition: 0.2s all linear;
+    right: 0;
+    top: 0;
+}
+.buton:hover .aad {
+    height: 60%;
+    margin-top: 20px;
+}
+.aal{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background-color: rgb(55, 233, 233);
+    transition: 0.2s all linear;
+    right: 0;
+    top: 0;
+}
+.buton:hover .aal {
+    height: 100%;
+    width: 80%;
+    left: 20px;
+
+}
+.buton:hover .aac {
+    height: 100%;
+}
+.buton:hover .aab {
+    height: 100%;
+}
+.buton:hover .aaa {
+    height: 100%;
+}
+.buton:hover .aa {
+    height: 100%;
+}
+.buton:hover .aa1 {
+    height: 100%;
 }
